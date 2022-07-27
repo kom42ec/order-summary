@@ -100,7 +100,7 @@ body {
 }
 .box-wrap {
   background-color: var(--verypale-blue);
-  padding: 2rem;
+  padding: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,14 +114,46 @@ body {
 }
 .annual-plan h3 {
   color: var(--dark-blue);
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   font-weight: 900;
 }
 .annual-plan p {
   color: var(--desaturated-blue);
-  font-size: 1.8rem;
+  font-size: 1.65rem;
+  margin-top: 0.5rem;
 }
+
+/* Link styling */
+.change-link {
+  color: var(--bright-blue);
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+/* Button Styling */
 button {
   display: block;
   width: 100%;
+  border: none;
+  padding: 1.6rem;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.payment {
+  color: #fff;
+  background-color: var(--bright-blue);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.cancel {
+  background-color: transparent;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+}
+.cancel:hover {
+  color: var(--dark-blue);
 }
